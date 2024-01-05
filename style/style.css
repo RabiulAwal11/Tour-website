@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+nav{
+    width: auto;
+    height: 35px;
+    justify-items: center;
+    background-color:rgb(26, 213, 207) ;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 10px ;
+   
+}
+nav li{
+    list-style: none;
+    color: #fff;
+}
+nav li:hover{
+    background-color: rgb(134, 134, 129);
+}
+nav li a{
+    text-decoration: none;
+}
+.search{
+    width: 25px;
+    height: 25px;
+}
+/* nested menu style */
+nav li .dropdown{
+display: none;
+}
+nav li:hover .dropdown{
+    display: block;
+}
+/* article and img about ladakh */
+.article-heading {
+font-size: 100px;
+color: rgb(11, 77, 77);
+margin-right: 15px;
+}
+.article-heading span{
+    font-size: 36px;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+}
+.article-body{
+    font-size: 20px;
+    height: auto;
+    width: auto;
+    margin-right: 15px;
+  
+}
+.Ladakh-im, .kashmir-img, .goa-img{
+ height: 500px;
+ width: 800px;
+ margin: 30px;
+ border-radius: 8px;
+ 
+}
+main{
+    padding: 15px 10px;
+
+}
